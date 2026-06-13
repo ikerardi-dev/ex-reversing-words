@@ -1,0 +1,50 @@
+
+
+    /* ── Playground ── */
+    .playground {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .playground h2 { font-size: 0.95rem; font-weight: 600; margin-bottom: 1rem; }
+
+    .play-row {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .play-row label { font-size: 0.75rem; color: #888780; display: block; margin-bottom: 4px; }
+
+    .play-row input {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      font-family: monospace;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    .play-row input:focus { border-color: #7F77DD; }
+
+    .arrow { font-size: 1.25rem; color: #aaa; text-align: center; }
+
+    .result-box {
+      background: #f5f4f0;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 8px 10px;
+      font-size: 0.875rem;
+      font-family: monospace;
+      min-height: 36px;
+      word-break: break-all;
+      color: #1D9E75;
+    }
+
+  
